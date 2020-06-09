@@ -1,8 +1,12 @@
 {
-	
+	"AIIdentify.ailight.Red|block": "红灯",
+    "AIIdentify.ailight.green|block": "绿灯",
+	"AIIdentify.ailight.blue|block": "蓝灯",
+	"AIIdentify.rgbstate.state1|block": "亮",
+	"AIIdentify.rgbstate.state2|block": "灭",
 	"AIIdentify.getid|block": "获取分类ID",
-	"AIIdentify.sendtone|block":"MIDI 发送 通道 %index|音阶 %sca|音符号 %noty|音量(0~127) %pply",
-	"AIIdentify.sendpercussion|block":"MIDI 发送 打击乐|%index|音量(0~127)|%pply",
-    "AIIdentify.setup|block":"MIDI 初始化在引脚|%port"
+	"AIIdentify.setnum|block":"设置分类数量|%index",
+	"AIIdentify.setthreshold|block":"设置识别阈值|%index",
+    "AIIdentify.setrgb|block":"设置|%light1 状态|%rgbstate"
     
 }
