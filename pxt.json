@@ -1,0 +1,19 @@
+{
+    "name": "AIIdentify",
+    "version": "0.0.1",
+    "description": "Extension for AI",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/AIIdentify-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}
