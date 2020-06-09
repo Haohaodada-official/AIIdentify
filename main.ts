@@ -25,7 +25,7 @@ namespace AIIdentify {
 	
 	//% weight=40
     //% blockId=AIIdentify_getid block="get ID"
-	export function getid():void{
+	export function getid(): number{
 		pins.i2cReadNumber(ai_address, NumberFormat.Int8LE, false);
 	}
 	
