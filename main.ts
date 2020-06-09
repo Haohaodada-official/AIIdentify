@@ -1,6 +1,6 @@
 
 
-//% weight=10 color=#FF6600 icon="\uf001" block="AI摄像头"
+//% weight=10 color=#FF6600 icon="\uf030" block="AI摄像头"
 
 namespace AIIdentify {
 	
