@@ -16,9 +16,9 @@ namespace AIIdentify {
 	}
 	
 	export enum rgbstate{
-		//% block=lightup
+		//% block=lighton
         state1 = 0,
-		//% block=putout
+		//% block=lightoff
         state2 = 1
 	}
 	
