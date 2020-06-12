@@ -10,14 +10,16 @@ namespace AIIdentify {
         //% block=green
         green = 4,
         //% block=blue
-        blue = 5
+        blue = 5,
+		//% block=white
+        white = 6
 	}
 	
 	export enum rgbstate{
 		//% block=lightup
-        state1 = 1,
+        state1 = 0,
 		//% block=putout
-        state2 = 0
+        state2 = 1
 	}
 	
 	

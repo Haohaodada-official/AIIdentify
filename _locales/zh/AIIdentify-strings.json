@@ -2,6 +2,7 @@
 	"AIIdentify.ailight.Red|block": "红灯",
     "AIIdentify.ailight.green|block": "绿灯",
 	"AIIdentify.ailight.blue|block": "蓝灯",
+	"AIIdentify.ailight.white|block": "白灯",
 	"AIIdentify.rgbstate.state1|block": "亮",
 	"AIIdentify.rgbstate.state2|block": "灭",
 	"AIIdentify.getid|block": "获取分类ID",
