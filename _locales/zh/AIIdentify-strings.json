@@ -1,13 +1,18 @@
 {
-	"AIIdentify.ailight.Red|block": "红灯",
+    "AIIdentify.ailight.red|block": "红灯",
     "AIIdentify.ailight.green|block": "绿灯",
-	"AIIdentify.ailight.blue|block": "蓝灯",
-	"AIIdentify.ailight.white|block": "白灯",
-	"AIIdentify.rgbstate.state1|block": "亮",
-	"AIIdentify.rgbstate.state2|block": "灭",
-	"AIIdentify.getid|block": "获取分类ID",
-	"AIIdentify.setnum|block":"设置分类数量|%index",
-	"AIIdentify.setthreshold|block":"设置识别阈值|%index",
-    "AIIdentify.setrgb|block":"设置|%light1 状态|%rgbstate"
-    
+    "AIIdentify.ailight.blue|block": "蓝灯",
+    "AIIdentify.ailight.white|block": "白灯",
+    "AIIdentify.rgbstate.state1|block": "亮",
+    "AIIdentify.rgbstate.state2|block": "灭",
+    "AIIdentify.allcolor.red|block": "红色",
+    "AIIdentify.allcolor.green|block": "绿色",
+    "AIIdentify.allcolor.yellow|block": "黄色",
+    "AIIdentify.getid|block": "获取分类ID",
+    "AIIdentify.setnum|block":"设置分类数量|%index",
+    "AIIdentify.setthreshold|block":"设置识别阈值|%index",
+    "AIIdentify.setrgb|block":"设置|%light1 状态|%rgbstate",
+    "AIIdentify.detectcolor|block":"设置颜色识别|%color",
+    "AIIdentify.getdetectedaxis|block": "获取颜色识别|%axis 坐标"
+
 }
