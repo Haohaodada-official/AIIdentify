@@ -33,11 +33,18 @@ namespace AIIdentify {
         yellow = 2
     }
 
-    export enum allaxis{
+    export enum coloraxis{
         //% block=X
         x = 8,
         //% block=Y
         y = 9
+    }
+
+    export enum faceaxis {
+        //% block=X
+        x = 11,
+        //% block=Y
+        y = 12
     }
 
 
@@ -85,8 +92,18 @@ namespace AIIdentify {
 
     //% group="颜色识别"
     //% weight=40
-    //% blockId=AIIdentify_getdetected axis block="get detected axis|%axis"
-    export function getdetectedaxis(axis: allaxis): number{
+    //% blockId=AIIdentify_getdetectedcolor_axis block="get detected color axis|%axis"
+    export function getdetectedcoloraxis(axis: coloraxis): number{
+        pins.i2cWriteNumber(ai_address, axis, NumberFormat.Int8LE, true);
+        let value = pins.i2cReadNumber(ai_address, NumberFormat.Int8LE, false);
+        return value;
+    }
+
+
+    //% group="人脸识别"
+    //% weight=40
+    //% blockId=AIIdentify_getdetectedface_axis block="get detected face axis|%axis"
+    export function getdetectedfaceaxis(axis: faceaxis): number {
         pins.i2cWriteNumber(ai_address, axis, NumberFormat.Int8LE, true);
         let value = pins.i2cReadNumber(ai_address, NumberFormat.Int8LE, false);
         return value;

@@ -13,6 +13,7 @@
     "AIIdentify.setthreshold|block":"设置识别阈值|%index",
     "AIIdentify.setrgb|block":"设置|%light1 状态|%rgbstate",
     "AIIdentify.detectcolor|block":"设置颜色识别|%color",
-    "AIIdentify.getdetectedaxis|block": "获取颜色识别|%axis 坐标"
+    "AIIdentify.getdetectedcoloraxis|block": "获取颜色识别|%axis 坐标",
+    "AIIdentify.getdetectedfaceaxis|block": "获取人脸识别|%axis 坐标"
 
 }
