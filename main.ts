@@ -53,13 +53,14 @@ namespace AIIdentify {
     //% group="图像识别"
     //% weight=40
     //% blockId=AIIdentify_getid block="get ID"
-	export function getid(): number{
-		let value = pins.i2cReadNumber(ai_address, NumberFormat.Int8LE, false);
-		return value;
-	}
+    export function getid(): number{
+        pins.i2cWriteNumber(ai_address, 10, NumberFormat.Int8LE, true);
+        let value = pins.i2cReadNumber(ai_address, NumberFormat.Int8LE, false);
+        return value;
+    }
 
     //% group="图像识别"
-	//% weight=40
+    //% weight=40
     //% blockId=AIIdentify_setnum block="set number|%index"
     export function setnum(index: number):void{
         pins.i2cWriteNumber(ai_address, 1, NumberFormat.Int8LE, true);
